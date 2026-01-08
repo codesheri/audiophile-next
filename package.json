@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky init",
-    "pre-commit": "npm run lint"
+    "lint": "next lint"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
@@ -29,15 +27,6 @@
     "eslint": "9.18.0",
     "eslint-config-next": "^15.1.5",
     "eslint-config-prettier": "^10.0.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.4.1",
     "prettier": "3.4.2"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --cache --fix",
-      "prettier --write"
-    ],
-    "*.{css,md}": "prettier --write"
   }
 }
