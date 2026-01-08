@@ -28,5 +28,8 @@
     "eslint-config-next": "^15.1.5",
     "eslint-config-prettier": "^10.0.1",
     "prettier": "3.4.2"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
