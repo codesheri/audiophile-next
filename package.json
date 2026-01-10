@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
@@ -15,17 +15,17 @@
     "formik": "^2.4.6",
     "graphql": "^16.10.0",
     "graphql-request": "^7.1.2",
-    "next": "15.1.11",
+    "next": "16.1.1",
     "next-seo": "^6.6.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "react-toastify": "^11.0.3",
     "sass": "^1.83.4",
     "yup": "^1.6.1"
   },
   "devDependencies": {
     "eslint": "9.18.0",
-    "eslint-config-next": "^15.1.5",
+    "eslint-config-next": "16.1.1",
     "eslint-config-prettier": "^10.0.1",
     "prettier": "3.4.2"
   },
